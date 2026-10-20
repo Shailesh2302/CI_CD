@@ -6,7 +6,7 @@ services:
       POSTGRES_PASSWORD: "password"
     restart: always
     ports:
-      - "4000:5432"
+      - "2403:5432"
     volumes:
       - shailesh_pgdata:/var/lib/postgresql
     healthcheck:
